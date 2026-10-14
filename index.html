@@ -573,7 +573,7 @@ textarea{min-height:5rem;resize:vertical}
     {id:'portal',title:'Team portal',type:'app',link:'',files:[],desc:'Login-gated internal portal with a shared credential vault and team policies.'},
     {id:'sel',title:'selectivesystems.in',type:'website',link:'https://selectivesystems.in',files:[],desc:'Website, SEO audit and Meta lead campaigns for a TOSTEM windows and doors partner.'}
   ];
-  const PDF_LINKS={leads:'https://drive.google.com/file/d/1NOQQcjo-tFqi5bAIOnRcs4iyofzQqV1q/view?usp=drivesdk',portal:'https://drive.google.com/file/d/1aXMQGBj6OSGvOmHFrZLja_zBl-Qmjdg2/view?usp=drivesdk'};
+  const PDF_LINKS={quote:'https://drive.google.com/file/d/1rDq4IV1p9hEfuyzD-SMtk489H-HE_abV/view?usp=drivesdk',leads:'https://drive.google.com/file/d/1NOQQcjo-tFqi5bAIOnRcs4iyofzQqV1q/view?usp=drivesdk',portal:'https://drive.google.com/file/d/1aXMQGBj6OSGvOmHFrZLja_zBl-Qmjdg2/view?usp=drivesdk'};
   const pdfLink=p=>PDF_LINKS[p.id]||'';
   let projects=[],filter='all',assets=null,art=null,canEdit=false;
   const safeLink=u=>{try{const x=new URL(u);return (x.protocol==='https:'||x.protocol==='http:')?x.href:''}catch(e){return ''}};
