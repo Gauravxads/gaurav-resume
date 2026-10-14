@@ -342,7 +342,7 @@ textarea{min-height:5rem;resize:vertical}
           <article class="ch" data-from="10" data-to="10" data-name="Ads + the machine" data-phase="Chapter 4 · the twist">
             <span class="yr">The twist</span>
             <h3><span class="q">Then I built the machine.</span><span class="f">Builds</span></h3>
-            <p class="body">Great ads still leak leads if nothing catches them. So I built <strong>the quote builder, the CRM pipeline, the dealer app and the dashboards</strong> behind the campaigns.</p>
+            <p class="body">Great ads still leak leads if nothing catches them. So I built <strong>the quote builder, the CRM pipeline and the team portal</strong> behind the campaigns.</p>
             <p class="body"><a href="#builds">See what I built ›</a></p>
           </article>
         </div>
@@ -565,13 +565,8 @@ textarea{min-height:5rem;resize:vertical}
   };
   const SEED=[
     {id:'quote',title:'Railing quote builder',type:'website',link:'https://quotes.imperiorailing.com',files:[],desc:'Online configurator where home owners, architects and builders price a railing themselves. Builders can upload drawings and get a quote on call or WhatsApp.'},
-    {id:'leads',title:'Meta leads to CRM pipeline',type:'crm',link:'',files:[],desc:'Every Meta lead form flows into a sheet and then the CRM on a daily auto-sync, cleaned and deduped by phone number, ready for sales.'},
-    {id:'tat',title:'Lead movement and TAT report',type:'dashboard',link:'',files:[],desc:'Monthly view of each lead\'s journey through CRM stages, showing where leads stall and how long each stage takes.'},
-    {id:'seo',title:'SEO command dashboard',type:'dashboard',link:'https://imperio-seo-dashboard.vercel.app',files:[],desc:'Live dashboard for the imperiorailing.com SEO programme, fed by daily AI agents that plan and execute keyword work.'},
-    {id:'web',title:'imperiorailing.com',type:'website',link:'https://imperiorailing.com',files:[],desc:'Company site with city landing pages for Mumbai, Goa, Bangalore, Pune, Delhi and Hyderabad, schema and AEO content.'},
-    {id:'dealer',title:'Imperio dealer app',type:'app',link:'',files:[],desc:'App for Imperio\'s railing dealers, tied to the dealer programme.'},
-    {id:'portal',title:'Team portal',type:'app',link:'',files:[],desc:'Login-gated internal portal with a shared credential vault and team policies.'},
-    {id:'sel',title:'selectivesystems.in',type:'website',link:'https://selectivesystems.in',files:[],desc:'Website, SEO audit and Meta lead campaigns for a TOSTEM windows and doors partner.'}
+    {id:'leads',title:'Meta leads to CRM pipeline',type:'crm',link:'',files:[],desc:'Every Meta lead form flows into a sheet and then the CRM on a daily auto-sync, cleaned and deduped by phone number, ready for sales.'},,,,,
+    {id:'portal',title:'Team portal',type:'app',link:'',files:[],desc:'Login-gated internal portal with a shared credential vault and team policies.'}
   ];
   const PDF_LINKS={quote:'https://drive.google.com/file/d/1rDq4IV1p9hEfuyzD-SMtk489H-HE_abV/view?usp=drivesdk',leads:'https://drive.google.com/file/d/1NOQQcjo-tFqi5bAIOnRcs4iyofzQqV1q/view?usp=drivesdk',portal:'https://drive.google.com/file/d/1aXMQGBj6OSGvOmHFrZLja_zBl-Qmjdg2/view?usp=drivesdk'};
   const pdfLink=p=>PDF_LINKS[p.id]||'';
