@@ -29,6 +29,7 @@
   --link:#2997FF; --blue:#0A84FF; --nav:rgba(22,22,23,.75); --dim:#3A3A3C; color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:calc(56px + env(safe-area-inset-top,0px))}
 body{margin:0;background:var(--bg);color:var(--ink);
   font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","Poppins",sans-serif;
@@ -393,7 +394,7 @@ textarea{min-height:5rem;resize:vertical}
       </div>
       <div class="grid" id="grid"></div>
       <p class="empty" id="empty" hidden>No projects yet. Add a website, app, CRM or dashboard with its PDF.</p>
-      <div class="addrow"><button class="btn sec" id="addBtn" type="button" hidden>Add project</button></div>
+      <div class="addrow"><button class="btn sec" id="addBtn" type="button" hidden style="display:none">Add project</button></div>
     </div>
   </section>
 
